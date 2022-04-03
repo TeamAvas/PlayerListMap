@@ -1,0 +1,15 @@
+name: PlayerListMap
+main: melodylan\playerlistmap\Loader
+author: Melodylan-Team
+version: 1.0.0
+api: 4.0.0
+website: https://github.com/Melodylan
+
+commands:
+  plist:
+    description: Player List Control Command
+    permission: player.list.permission
+
+permissions:
+  player.list.permission:
+    default: op
